@@ -13,6 +13,7 @@ import io.reactivex.disposables.Disposable
 import kotlinx.android.synthetic.main.fragment_epoxy_list.*
 
 
+//TODO clean this up
 class EpoxyListFragment : Fragment() {
 
     private lateinit var listController: ListController

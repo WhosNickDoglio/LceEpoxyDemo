@@ -4,6 +4,8 @@ import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import com.nicholasdoglio.lcedemo.ui.EpoxyListFragment
 
+//TODO add more comments
+//TODO tests?
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
