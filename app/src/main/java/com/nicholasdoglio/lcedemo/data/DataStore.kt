@@ -11,8 +11,8 @@ object DataStore {
         .delay(20000, TimeUnit.MILLISECONDS)
         //Error thrown 25% of time to show error state
         .map { throwErrorRandomly(it) }
-        //Returns empty or success case depending in list is empty or not
-        .map<RequestState<List<String>>> { returnCorrectState(it) }
+        //Returns Success state with a list of data
+        .map<RequestState<List<String>>> { RequestState.Success(it) }
         //Begins loading
         .startWith(RequestState.Loading)
         //Shows error state on any error
@@ -25,9 +25,6 @@ object DataStore {
             }
         }
     }
-
-    private fun returnCorrectState(list: List<String>): RequestState<List<String>> =
-        if (list.isEmpty()) RequestState.Empty else RequestState.Success(list)
 
     private fun throwErrorRandomly(list: List<String>): List<String> {
         if ((Math.random() * 100) < 25) throw Throwable("Show me the error state!")
