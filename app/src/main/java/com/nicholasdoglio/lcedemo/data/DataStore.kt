@@ -4,6 +4,7 @@ import io.reactivex.Observable
 import java.util.concurrent.TimeUnit
 
 object DataStore {
+
     val data: MutableList<String> = mutableListOf()
 
     fun getData(): Observable<RequestState<List<String>>> = Observable.just(data)
@@ -13,7 +14,7 @@ object DataStore {
         .map { throwErrorRandomly(it) }
         //Returns Success state with a list of data
         .map<RequestState<List<String>>> { RequestState.Success(it) }
-        //Begins loading
+        //Begins with loading state
         .startWith(RequestState.Loading)
         //Shows error state on any error
         .onErrorReturn { RequestState.Error }
@@ -26,10 +27,7 @@ object DataStore {
         }
     }
 
-    private fun throwErrorRandomly(list: List<String>): List<String> {
-        if ((Math.random() * 100) < 25) throw Throwable("Show me the error state!")
-
-        return list
-    }
+    private fun throwErrorRandomly(list: List<String>): List<String> =
+        if ((Math.random() * 100) < 25) throw Throwable("Show me the error state!") else list
 }
 
