@@ -3,7 +3,7 @@
 
 Small playground for [Epoxy](https://github.com/airbnb/epoxy) with [RxJava](https://github.com/ReactiveX/RxJava) using a LCE (Loading / Content / Error) sealed class to model state.
 
-# Insipration
+# Inspiration
 
 - [LCE: Modeling Data Loading in RxJava by Laimonas Turauskas at Insta Cart](https://tech.instacart.com/lce-modeling-data-loading-in-rxjava-b798ac98d80)
 - [Engineering Smart && Building Dumb: Building an Android Thin-Client at OkCupid by Brandon John-Freso at OkCupid](https://tech.okcupid.com/engineering-an-android-thin-client/)
