@@ -2,10 +2,10 @@ package com.nicholasdoglio.lcedemo.ui
 
 
 import android.os.Bundle
-import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import com.nicholasdoglio.lcedemo.R
 import com.nicholasdoglio.lcedemo.data.DataStore
 import io.reactivex.android.schedulers.AndroidSchedulers
