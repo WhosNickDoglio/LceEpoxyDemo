@@ -9,7 +9,7 @@ import com.nicholasdoglio.lcedemo.R
 @EpoxyModelClass(layout = R.layout.item_empty)
 abstract class ItemEmpty : EpoxyModelWithHolder<ItemEmpty.EmptyHolder>() {
 
-    class EmptyHolder() : EpoxyHolder() {
+    class EmptyHolder : EpoxyHolder() {
         override fun bindView(itemView: View) {}
     }
 }

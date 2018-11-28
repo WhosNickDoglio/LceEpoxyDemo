@@ -7,9 +7,9 @@ import com.airbnb.epoxy.EpoxyModelWithHolder
 import com.nicholasdoglio.lcedemo.R
 
 @EpoxyModelClass(layout = R.layout.item_loading)
-abstract class ItemLoading() : EpoxyModelWithHolder<ItemLoading.LoadingHolder>() {
+abstract class ItemLoading : EpoxyModelWithHolder<ItemLoading.LoadingHolder>() {
 
-    class LoadingHolder() : EpoxyHolder() {
+    class LoadingHolder : EpoxyHolder() {
         override fun bindView(itemView: View) {}
     }
 }

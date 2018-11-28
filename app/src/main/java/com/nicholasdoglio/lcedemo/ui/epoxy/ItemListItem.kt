@@ -10,7 +10,7 @@ import com.nicholasdoglio.lcedemo.R
 import kotlinx.android.synthetic.main.item_list.view.*
 
 @EpoxyModelClass(layout = R.layout.item_list)
-abstract class ItemListItem() : EpoxyModelWithHolder<ItemListItem.ListItemHolder>() {
+abstract class ItemListItem : EpoxyModelWithHolder<ItemListItem.ListItemHolder>() {
     @EpoxyAttribute lateinit var data: String
 
     override fun bind(holder: ListItemHolder) {
@@ -18,7 +18,7 @@ abstract class ItemListItem() : EpoxyModelWithHolder<ItemListItem.ListItemHolder
         holder.textView.text = data
     }
 
-    class ListItemHolder() : EpoxyHolder() {
+    class ListItemHolder : EpoxyHolder() {
 
         lateinit var textView: TextView
 

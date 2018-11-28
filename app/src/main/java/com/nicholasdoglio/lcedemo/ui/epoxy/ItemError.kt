@@ -10,7 +10,7 @@ import com.nicholasdoglio.lcedemo.R
 import kotlinx.android.synthetic.main.item_error.view.*
 
 @EpoxyModelClass(layout = R.layout.item_error)
-abstract class ItemError() : EpoxyModelWithHolder<ItemError.ErrorHolder>() {
+abstract class ItemError : EpoxyModelWithHolder<ItemError.ErrorHolder>() {
     @EpoxyAttribute lateinit var onClickListener: () -> Unit
 
     override fun bind(holder: ErrorHolder) {
@@ -18,7 +18,7 @@ abstract class ItemError() : EpoxyModelWithHolder<ItemError.ErrorHolder>() {
         holder.retryButton.setOnClickListener { onClickListener() }
     }
 
-    class ErrorHolder() : EpoxyHolder() {
+    class ErrorHolder : EpoxyHolder() {
 
         lateinit var retryButton: Button
 
