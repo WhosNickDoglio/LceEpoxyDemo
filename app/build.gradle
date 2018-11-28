@@ -33,6 +33,7 @@ kapt {
 ext {
 
     //Libraries
+    kotlin_version = '1.3.10'
     appcompat = '1.0.2'
     constraint = '2.0.0-alpha2'
     rxJava = '2.2.3'
