@@ -30,16 +30,3 @@ task clean(type: Delete) {
     delete rootProject.buildDir
 }
 
-ext {
-
-    //Libraries
-    appcompat = '1.0.2'
-    constraint = '2.0.0-alpha2'
-    rxJava = '2.2.3'
-    rxAndroid = '2.1.0'
-    epoxy = '3.0.0'
-    junit = '4.12'
-    runner = '1.1.0'
-    espressoCore = '3.1.0'
-
-}
