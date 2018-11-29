@@ -3,6 +3,8 @@
 
 Small playground for [Epoxy](https://github.com/airbnb/epoxy) with [RxJava](https://github.com/ReactiveX/RxJava) using a LCE (Loading / Content / Error) sealed class to model state.
 
+- Project also uses Kotlin DSL for all gradle files.
+
 # Inspiration
 
 - [LCE: Modeling Data Loading in RxJava by Laimonas Turauskas at Insta Cart](https://tech.instacart.com/lce-modeling-data-loading-in-rxjava-b798ac98d80)
