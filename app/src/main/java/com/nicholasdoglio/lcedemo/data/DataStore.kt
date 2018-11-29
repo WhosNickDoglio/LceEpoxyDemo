@@ -3,6 +3,9 @@ package com.nicholasdoglio.lcedemo.data
 import io.reactivex.Observable
 import java.util.concurrent.TimeUnit
 
+/**
+ * @author Nicholas Doglio
+ */
 object DataStore {
 
     val data: MutableList<String> = mutableListOf()
@@ -28,6 +31,6 @@ object DataStore {
     }
 
     private fun throwErrorRandomly(list: List<String>): List<String> =
-        if ((Math.random() * 100) < 25) throw Throwable("Show me the error state!") else list
+        if ((Math.random() * 100) < 25) throw IllegalStateException("Show me the error state!") else list
 }
 

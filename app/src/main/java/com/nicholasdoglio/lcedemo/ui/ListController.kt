@@ -7,9 +7,13 @@ import com.nicholasdoglio.lcedemo.ui.epoxy.itemError
 import com.nicholasdoglio.lcedemo.ui.epoxy.itemListItem
 import com.nicholasdoglio.lcedemo.ui.epoxy.itemLoading
 
-//TODO explore other Epoxy features
+
+/**
+ * @author Nicholas Doglio
+ */
 class ListController(private val retry: () -> Unit) :
     TypedEpoxyController<RequestState<List<String>>>() {
+    //TODO explore other Epoxy features
 
     override fun buildModels(state: RequestState<List<String>>) = when (state) {
         is RequestState.Loading -> renderLoading()

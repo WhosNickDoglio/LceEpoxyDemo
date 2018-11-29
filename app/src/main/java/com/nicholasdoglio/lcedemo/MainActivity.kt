@@ -4,9 +4,13 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.nicholasdoglio.lcedemo.ui.EpoxyListFragment
 
-//TODO add more comments
-//TODO tests?
+/**
+ * @author Nicholas Doglio
+ */
 class MainActivity : AppCompatActivity() {
+
+    //TODO add more comments
+    // TODO tests?
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

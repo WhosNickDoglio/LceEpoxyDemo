@@ -9,6 +9,9 @@ import com.airbnb.epoxy.EpoxyModelWithHolder
 import com.nicholasdoglio.lcedemo.R
 import kotlinx.android.synthetic.main.item_error.view.*
 
+/**
+ * @author Nicholas Doglio
+ */
 @EpoxyModelClass(layout = R.layout.item_error)
 abstract class ItemError : EpoxyModelWithHolder<ItemError.ErrorHolder>() {
     @EpoxyAttribute lateinit var onClickListener: () -> Unit

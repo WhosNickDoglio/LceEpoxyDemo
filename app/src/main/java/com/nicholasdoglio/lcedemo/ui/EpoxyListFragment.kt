@@ -12,9 +12,10 @@ import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.Disposable
 import kotlinx.android.synthetic.main.fragment_epoxy_list.*
 
-
-//TODO clean this up
-class EpoxyListFragment : Fragment() {
+/**
+ * @author Nicholas Doglio
+ */
+class EpoxyListFragment : Fragment() {//TODO clean this up
 
     private lateinit var listController: ListController
 

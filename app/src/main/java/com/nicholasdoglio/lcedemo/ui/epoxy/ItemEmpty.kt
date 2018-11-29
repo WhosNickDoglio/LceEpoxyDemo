@@ -6,6 +6,9 @@ import com.airbnb.epoxy.EpoxyModelClass
 import com.airbnb.epoxy.EpoxyModelWithHolder
 import com.nicholasdoglio.lcedemo.R
 
+/**
+ * @author Nicholas Doglio
+ */
 @EpoxyModelClass(layout = R.layout.item_empty)
 abstract class ItemEmpty : EpoxyModelWithHolder<ItemEmpty.EmptyHolder>() {
 

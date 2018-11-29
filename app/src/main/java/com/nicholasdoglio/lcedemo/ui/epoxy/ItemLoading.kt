@@ -6,6 +6,9 @@ import com.airbnb.epoxy.EpoxyModelClass
 import com.airbnb.epoxy.EpoxyModelWithHolder
 import com.nicholasdoglio.lcedemo.R
 
+/**
+ * @author Nicholas Doglio
+ */
 @EpoxyModelClass(layout = R.layout.item_loading)
 abstract class ItemLoading : EpoxyModelWithHolder<ItemLoading.LoadingHolder>() {
 
