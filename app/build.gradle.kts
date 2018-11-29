@@ -1,3 +1,5 @@
+import com.nicholasdoglio.buildsrc.Libs
+
 plugins {
     id("com.android.application")
     id("kotlin-android")
@@ -35,22 +37,22 @@ kapt {
 
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
-    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.3.10")
+    implementation(Libs.kotlin_stdlib_jdk8)
 
     //Android
-    implementation("androidx.appcompat:appcompat:1.0.2")
-    implementation("androidx.constraintlayout:constraintlayout:2.0.0-alpha2")
+    implementation(Libs.appcompat)
+    implementation(Libs.constraintlayout)
 
     //Rx
-    implementation("io.reactivex.rxjava2:rxjava:2.2.4")
-    implementation("io.reactivex.rxjava2:rxandroid:2.1.0")
+    implementation(Libs.rxjava)
+    implementation(Libs.rxandroid)
 
     //Epoxy
-    implementation("com.airbnb.android:epoxy:3.0.0")
-    kapt("com.airbnb.android:epoxy-processor:3.0.0")
+    implementation(Libs.epoxy)
+    kapt(Libs.epoxy_processor)
 
     //Testing
-    testImplementation("junit:junit:4.12")
-    androidTestImplementation("androidx.test:runner:1.1.0")
-    androidTestImplementation("androidx.test.espresso:espresso-core:3.1.0")
+    testImplementation(Libs.junit)
+    androidTestImplementation(Libs.androidx_test_runner)
+    androidTestImplementation(Libs.espresso_core)
 }
