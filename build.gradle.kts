@@ -6,8 +6,7 @@ buildscript {
     }
     dependencies {
         classpath("com.android.tools.build:gradle:3.3.0-rc01")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.10")
-
+        classpath(kotlin("gradle-plugin", version = "1.3.10"))
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle.kts files
     }

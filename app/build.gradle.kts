@@ -1,20 +1,21 @@
+import com.nicholasdoglio.buildsrc.App
 import com.nicholasdoglio.buildsrc.Libs
 
 plugins {
     id("com.android.application")
-    id("kotlin-android")
-    id("kotlin-android-extensions")
-    id("kotlin-kapt")
+    kotlin("android")
+    kotlin("android.extensions")
+    kotlin("kapt")
 }
 
 android {
-    compileSdkVersion(28)
+    compileSdkVersion(App.compileSdk)
     defaultConfig {
         applicationId = "com.nicholasdoglio.lcedemo"
-        minSdkVersion(21)
-        targetSdkVersion(28)
-        versionCode = 1
-        versionName = "1.0"
+        minSdkVersion(App.minSdk)
+        targetSdkVersion(App.targetSdk)
+        versionCode = App.versionCode
+        versionName = App.versionName
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
