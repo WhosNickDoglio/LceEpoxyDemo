@@ -24,7 +24,7 @@ object Versions {
 
     const val rxandroid: String = "2.1.0"
 
-    const val rxjava: String = "2.2.3" //available: "2.2.4" 
+    const val rxjava: String = "2.2.4"
 
     const val jmfayard_github_io_gradle_kotlin_dsl_libs_gradle_plugin: String = "0.2.6"
 
