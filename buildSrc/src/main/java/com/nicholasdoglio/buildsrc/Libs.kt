@@ -64,35 +64,35 @@ object Libs {
     /**
      * [kotlin-android-extensions website](https://kotlinlang.org/) */
     const val kotlin_android_extensions: String =
-        "org.jetbrains.kotlin:kotlin-android-extensions:" + Versions.org_jetbrains_kotlin
+        "org.jetbrains.kotlin:kotlin-android-extensions:" + Versions.org_jetbrains_kotlin_kotlin_stdlib_jdk8
 
     /**
      * [kotlin-annotation-processing-gradle website](https://kotlinlang.org/) */
     const val kotlin_annotation_processing_gradle: String =
-        "org.jetbrains.kotlin:kotlin-annotation-processing-gradle:" + Versions.org_jetbrains_kotlin
+        "org.jetbrains.kotlin:kotlin-annotation-processing-gradle:" + Versions.org_jetbrains_kotlin_kotlin_stdlib_jdk8
 
     /**
      * [kotlin-gradle-plugin website](https://kotlinlang.org/) */
     const val kotlin_gradle_plugin: String =
-        "org.jetbrains.kotlin:kotlin-gradle-plugin:" + Versions.org_jetbrains_kotlin
+        "org.jetbrains.kotlin:kotlin-gradle-plugin:" + Versions.org_jetbrains_kotlin_kotlin_stdlib_jdk8
 
     /**
      * [kotlin-reflect website](https://kotlinlang.org/) */
     const val kotlin_reflect: String =
-        "org.jetbrains.kotlin:kotlin-reflect:" + Versions.org_jetbrains_kotlin
+        "org.jetbrains.kotlin:kotlin-reflect:" + Versions.org_jetbrains_kotlin_kotlin_stdlib_jdk8
 
     /**
      * [kotlin-sam-with-receiver website](https://kotlinlang.org/) */
     const val kotlin_sam_with_receiver: String =
-        "org.jetbrains.kotlin:kotlin-sam-with-receiver:" + Versions.org_jetbrains_kotlin
+        "org.jetbrains.kotlin:kotlin-sam-with-receiver:" + Versions.org_jetbrains_kotlin_kotlin_stdlib_jdk8
 
     /**
      * [kotlin-scripting-compiler-embeddable website](https://kotlinlang.org/) */
     const val kotlin_scripting_compiler_embeddable: String =
-        "org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:" + Versions.org_jetbrains_kotlin
+        "org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:" + Versions.org_jetbrains_kotlin_kotlin_stdlib_jdk8
 
     /**
      * [kotlin-stdlib-jdk8 website](https://kotlinlang.org/) */
     const val kotlin_stdlib_jdk8: String =
-        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:" + Versions.org_jetbrains_kotlin
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:" + Versions.org_jetbrains_kotlin_kotlin_stdlib_jdk8
 }
