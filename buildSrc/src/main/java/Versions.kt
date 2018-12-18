@@ -1,5 +1,3 @@
-package com.nicholasdoglio.buildsrc
-
 /**
  * Find which updates are available by running
  *     `$ ./gradlew buildSrcVersions`
