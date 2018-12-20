@@ -15,9 +15,9 @@ object Versions {
 
   const val com_airbnb_android: String = "3.0.0"
 
-  const val com_android_tools_build_gradle: String = "3.4.0-alpha08"
+  const val com_android_tools_build_gradle: String = "3.4.0-alpha09"
 
-  const val lint_gradle: String = "26.4.0-alpha08"
+  const val lint_gradle: String = "26.4.0-alpha09"
 
   const val de_fayard_buildsrcversions_gradle_plugin: String = "0.3.2"
 
@@ -43,18 +43,18 @@ object Versions {
 
   const val org_jetbrains_kotlin_kotlin_stdlib_jdk8: String = "1.3.10"
 
-    /**
-     *
-     *   To update Gradle, edit the wrapper file at path:
-     *      ./gradle/wrapper/gradle-wrapper.properties
-     */
-    object Gradle {
-      const val runningVersion: String = "5.1-rc-1"
+  /**
+   *
+   *   To update Gradle, edit the wrapper file at path:
+   *      ./gradle/wrapper/gradle-wrapper.properties
+   */
+  object Gradle {
+    const val runningVersion: String = "5.1-rc-2"
 
-        const val currentVersion: String = "5.0"
+    const val currentVersion: String = "5.0"
 
-      const val nightlyVersion: String = "5.2-20181218000039+0000"
+    const val nightlyVersion: String = "5.2-20181220000034+0000"
 
-      const val releaseCandidate: String = "5.1-rc-2"
-    }
+    const val releaseCandidate: String = "5.1-rc-2"
+  }
 }
