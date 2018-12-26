@@ -36,7 +36,7 @@ kapt {
 
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
-  implementation(Libs.org_jetbrains_kotlin_kotlin_stdlib_jdk8)
+  implementation(Libs.kotlin_stdlib_jdk8)
 
     //Android
     implementation(Libs.appcompat)
