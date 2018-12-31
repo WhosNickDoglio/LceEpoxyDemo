@@ -23,13 +23,13 @@ object Versions {
 
     const val rxandroid: String = "2.1.0"
 
-    const val rxjava: String = "2.2.4"
+    const val rxjava: String = "2.2.5"
 
     const val junit: String = "4.12"
 
     const val org_gradle_kotlin_kotlin_dsl_gradle_plugin: String = "1.1.0"
 
-    const val org_jetbrains_kotlin: String = "1.3.11"
+    const val org_jetbrains_kotlin: String = "1.3.11" 
 
     /**
      *
@@ -41,7 +41,7 @@ object Versions {
 
         const val currentVersion: String = "5.0"
 
-        const val nightlyVersion: String = "5.2-20181226000045+0000"
+        const val nightlyVersion: String = "5.2-20181231000034+0000"
 
         const val releaseCandidate: String = "5.1-rc-3"
     }
