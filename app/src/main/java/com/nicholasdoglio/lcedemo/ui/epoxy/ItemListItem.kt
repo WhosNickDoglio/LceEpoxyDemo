@@ -11,7 +11,8 @@ import kotlinx.android.synthetic.main.item_list.view.*
 
 @EpoxyModelClass(layout = R.layout.item_list)
 abstract class ItemListItem : EpoxyModelWithHolder<ItemListItem.ListItemHolder>() {
-    @EpoxyAttribute lateinit var data: String
+    @EpoxyAttribute
+    lateinit var data: String
 
     override fun bind(holder: ListItemHolder) {
         super.bind(holder)

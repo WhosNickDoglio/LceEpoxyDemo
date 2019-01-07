@@ -14,7 +14,8 @@ import kotlinx.android.synthetic.main.item_error.view.*
  */
 @EpoxyModelClass(layout = R.layout.item_error)
 abstract class ItemError : EpoxyModelWithHolder<ItemError.ErrorHolder>() {
-    @EpoxyAttribute lateinit var onClickListener: () -> Unit
+    @EpoxyAttribute
+    lateinit var onClickListener: () -> Unit
 
     override fun bind(holder: ErrorHolder) {
         super.bind(holder)

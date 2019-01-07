@@ -1,4 +1,3 @@
-
 plugins {
     id("com.android.application")
     kotlin("android")
@@ -36,7 +35,7 @@ kapt {
 
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
-  implementation(Libs.kotlin_stdlib_jdk8)
+    implementation(Libs.kotlin_stdlib_jdk8)
 
     //Android
     implementation(Libs.appcompat)
