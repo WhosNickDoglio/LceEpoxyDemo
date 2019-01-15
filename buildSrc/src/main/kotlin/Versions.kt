@@ -33,23 +33,23 @@ object Versions {
 
     const val constraintlayout: String = "2.0.0-alpha2" 
 
-    const val espresso_core: String = "3.1.1" 
+    const val espresso_core: String = "3.1.1"
 
     const val androidx_test_runner: String = "1.1.1"
 
     const val com_airbnb_android: String = "3.1.0"
 
-    const val com_android_tools_build_gradle: String = "3.4.0-alpha10" 
+    const val com_android_tools_build_gradle: String = "3.3.0"
 
-    const val lint_gradle: String = "26.4.0-alpha10" 
+    const val lint_gradle: String = "26.3.0" 
 
     const val de_fayard_buildsrcversions_gradle_plugin: String = "0.3.2" 
 
     const val rxandroid: String = "2.1.0" 
 
-    const val rxjava: String = "2.2.5" 
+    const val rxjava: String = "2.2.5"
 
-    const val junit: String = "4.12"
+    const val junit: String = "4.12" 
 
     const val org_gradle_kotlin_kotlin_dsl_gradle_plugin: String = "1.1.1" 
 
@@ -65,7 +65,7 @@ object Versions {
 
         const val currentVersion: String = "5.1.1"
 
-        const val nightlyVersion: String = "5.2-20190113115549+0000"
+        const val nightlyVersion: String = "5.2-20190115022437+0000"
 
         const val releaseCandidate: String = ""
     }
